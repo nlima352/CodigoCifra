@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cifra</title>
+</head>
+
+<body>
+    <h1> Codigo 64 e Cifra de Cesar </h1>
+
+    <form name="formulario">
+        <h4>Digite seu texto:</h4>
+        <input id="mensagem">
+
+        <h4>Selecione um codificador:</h4>
+        <select id="selecionar">
+            <option value="">Selecione:</option>
+            <option value="opcao1">Cifra de César</option>
+            <option value="opcao2">Base64</option>
+        </select><br>
+
+        <input type="radio" id="cod" name="opcoes" value="codificar" checked>
+        <label for="cod">Codificar</label>
+        <input type="radio" id="decod" name="opcoes" value="decodificar">
+        <label for="decod">Decodificar</label>
+
+        <div style= "display: none;" id="container">
+            <h4>Incremento:</h4>
+            <input id="incremento">        
+        </div>
+
+        <button type="submit">Codificar Mensagem!</button>
+    </form>
+
+    <p id="resultado"></p>
+
+    <script src="ccodigo.js"></script>
+</body>
+</html>

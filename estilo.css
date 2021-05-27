@@ -1,0 +1,110 @@
+* { padding: 0; 
+    margin: 0; 
+    border: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+
+body{
+    background-image:url('codigo.jpg');
+    background-size:cover;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: black;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 50px;
+}
+form{
+    background-color:#E0E0E0;
+    opacity: 0.8;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align:center;
+}
+h4{
+    color: black;
+    margin-bottom: 2%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+#resultado{
+    margin-top: 2%;
+    
+}
+
+#mensagem, #incremento{
+    border-radius: 5px;
+    margin-left: 10%;
+    width: 30%;
+    font-size: 120%;
+    border: 2px solid rgb(32, 32, 32);
+    outline: none;
+}
+
+#mensagem{
+    margin-bottom: 9%;
+    border-radius: 5px;
+    margin-left: 10%;
+    width: 90%;
+}
+
+select{
+    width: 50%;
+    font-size: 80%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    border-radius: 5px;
+    border: 1px solid;
+    outline: none;
+}
+
+option{
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+label{
+    font-weight: bold;
+    font: 16px;
+}
+
+button{
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 15%;
+    margin-top: 30px;
+    padding: 10px;
+    font: 40px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid;
+    outline: none;
+}
+p{
+    background-color:#E0E0E0;
+    font-family: "Montserrat", sans-serif;
+    opacity: 0.8;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align:center;
+}
